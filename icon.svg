@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx=".5" cy="0" r="1.1"><stop offset="0" stop-color="#2c1f63"/><stop offset=".65" stop-color="#0f0c1d"/></radialGradient>
+    <linearGradient id="c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="hsl(258,72%,72%)"/><stop offset="1" stop-color="hsl(258,72%,56%)"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g transform="translate(76 76) scale(1.8)" stroke="rgba(255,255,255,.35)" stroke-width="1.6" stroke-linejoin="round">
+    <polygon points="100,8 20,54 100,44" fill="hsl(258,72%,54%)"/>
+    <polygon points="100,8 100,44 180,54" fill="hsl(258,72%,46%)"/>
+    <polygon points="20,54 50,132 100,44" fill="hsl(258,72%,48%)"/>
+    <polygon points="180,54 100,44 150,132" fill="hsl(258,72%,38%)"/>
+    <polygon points="20,54 20,146 50,132" fill="hsl(258,72%,40%)"/>
+    <polygon points="180,54 180,146 150,132" fill="hsl(258,72%,30%)"/>
+    <polygon points="20,146 100,192 50,132" fill="hsl(258,72%,32%)"/>
+    <polygon points="180,146 100,192 150,132" fill="hsl(258,72%,24%)"/>
+    <polygon points="50,132 150,132 100,192" fill="hsl(258,72%,36%)"/>
+    <polygon points="100,44 150,132 50,132" fill="url(#c)"/>
+    <text x="100" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="34" fill="#fff" stroke="none">20</text>
+  </g>
+</svg>
